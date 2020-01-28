@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 class ReusableCard extends StatelessWidget {
   final Color colour;
   final Widget iconContent;
+
   ReusableCard({@required this.colour, this.iconContent});
 
   @override
